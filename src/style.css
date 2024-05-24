@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 10%;
+  display: flex;
+  margin: 20px 0px;
+  margin-right: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.2s ease-in-out;
+  border-bottom: 2px solid white;
+}
+
+a:hover {
+  color: #d00b16;
+  border-bottom: 2px solid #d00b16;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("/hero.jpg");
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 50px;
+}
+
+.hero h1 {
+  text-align: right;
+  font-size: 45px;
+  color: black;
+  margin: 0;
+}
+
+.hero img {
+  width: 20%;
+  margin-top: 250px;
+}
+
+.about {
+  margin-top: 30px;
+  border-top: 2px solid #d00b16;
+  background-color: white;
+}
+
+.about h1 {
+  margin-top: 90px;
+  text-align: center;
+  color: #072d4d;
+  font-size: 45px;
+}
+
+.about_info {
+  font-size: 15px;
+  color: black;
+  margin: 15px auto;
+  text-align: center;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 40px 20px;
+  background-color: #072d4d;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  min-width: 160px;
+  min-height: 180px;
+  transition: opacity 0.3s ease-in-out;
+  transition: scale 0.3s ease-in-out;
+}
+
+.card:hover {
+  scale: 1.05;
+  opacity: 95%;
+}
+
+.card h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.how {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px auto;
+  width: 60%;
+}
+
+.how img {
+  margin-bottom: 20px;
+}
+
+.how h1 {
+  font-size: 45px;
+  color: #072d4d;
+}
+
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.benefits h1 {
+  margin-top: 90px;
+  text-align: center;
+  color: #072d4d;
+  font-size: 45px;
+}
