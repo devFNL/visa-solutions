@@ -98,7 +98,7 @@ a:hover {
 }
 
 .about_info {
-  font-size: 15px;
+  font-size: 16px;
   color: black;
   margin: 15px auto;
   text-align: center;
@@ -171,7 +171,7 @@ a:hover {
 }
 
 .benefits h1 {
-  margin-top: 90px;
+  margin-top: 20px;
   text-align: center;
   color: #072d4d;
   font-size: 45px;
@@ -179,14 +179,21 @@ a:hover {
 
 .bene_cards {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: auto;
   gap: 20px;
 }
 
+.bene_row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .bene_card {
-  background-color: #072d4d;
+  background-color: #3086c7;
   color: white;
   display: flex;
   flex-direction: column;
@@ -197,6 +204,7 @@ a:hover {
   width: 300px;
   margin: 20px;
   position: relative;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .bene_card h2 {
@@ -217,4 +225,127 @@ a:hover {
   margin-top: 80px;
   font-size: 14px;
   line-height: 1.5;
+}
+
+.bene_card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.requirements {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 60%;
+}
+
+.requirements_list {
+  position: relative;
+  width: 100%;
+}
+
+.requirements_list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 250px;
+  padding-top: 50px;
+  background-image: url("/steam.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform-origin: center;
+  animation: rotate 120s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.requirements h1 {
+  font-size: 45px;
+  color: #072d4d;
+}
+
+.requirements_list ul {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  padding: 0px;
+  margin: 5px 0px;
+}
+
+.requirement_element {
+  display: flex;
+  align-items: flex-start;
+  background-color: rgb(241, 241, 241);
+  padding: 5px 25px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.requirement_element:hover {
+  background-color: #072d4d;
+  color: white;
+}
+
+.requirement_element img {
+  width: 45px;
+  margin: 10px 20px;
+}
+
+.requirement_text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.requirement_text h2 {
+  margin: 9px 0px;
+  font-size: 20px;
+}
+
+.requirement_text p {
+  margin: 0px;
+  font-size: 14px;
+  text-align: start;
+}
+
+.requirements_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.process_head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.process_head h1 {
+  font-size: 45px;
+  color: #072d4d;
+}
+
+.process_head p {
+  font-weight: 500;
+  font-size: 18px;
+  width: 55%;
 }

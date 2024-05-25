@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import About from "./About";
 import How from "./How";
 import Benefits from "./Benefits";
+import Requirements from "./Requirements";
+import Process from "./Process";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <About />
       <How />
       <Benefits />
+      <Requirements />
+      <Process />
     </>
   );
 }
