@@ -21,3 +21,17 @@ The ideal resolution for this project is 1080p (1920x1080), as there was not eno
 - **React:** For building the user interface with reusable components.
 - **CSS:** For styling the website to ensure consistency with the brand identity.
 - **React Router:** For routing (if applicable in the future).
+
+## Graphic Design Notes
+
+### Font
+- **Roboto:** This font is simple and serious at the same time. It conveys the seriousness of the company and maintains a professional appearance.
+
+### Color
+- **White:** White represents purity, cleanliness, and honesty. It is used to reflect the company's values and transparency, ensuring no tricks or hidden agendas.
+
+### Drawings
+- **Brochure Drawings:** The same drawings from the brochure are used to maintain the essence of the company. These elements align well with the overall design.
+
+### Photography
+- **Hero Image:** For the hero section, a USA flag is used instead of the original brochure image due to quality issues. A special shape design is applied to the hero image to enhance visual appeal.
