@@ -35,3 +35,21 @@ The ideal resolution for this project is 1080p (1920x1080), as there was not eno
 
 ### Photography
 - **Hero Image:** For the hero section, a USA flag is used instead of the original brochure image due to quality issues. A special shape design is applied to the hero image to enhance visual appeal.
+
+## Screenshots
+
+![Mesa de trabajo 1](https://github.com/devFNL/visa-solutions/assets/127357394/90b01148-42ca-4388-bd04-389644b7f25a)
+![Mesa de trabajo 2](https://github.com/devFNL/visa-solutions/assets/127357394/2e6c54fa-5261-4731-822c-605169c84573)
+![Mesa de trabajo 3](https://github.com/devFNL/visa-solutions/assets/127357394/98d102c3-9322-4974-9648-65c3352f70fe)
+![Mesa de trabajo 4](https://github.com/devFNL/visa-solutions/assets/127357394/20c74407-c75c-4f16-a2eb-1891e2d9c5e5)
+![Mesa de trabajo 5](https://github.com/devFNL/visa-solutions/assets/127357394/6b031a6d-2607-4363-8807-589c1f9572fa)
+![Mesa de trabajo 6](https://github.com/devFNL/visa-solutions/assets/127357394/09e60e7f-6f74-49c8-8f85-98d03941aa84)
+![Mesa de trabajo 7](https://github.com/devFNL/visa-solutions/assets/127357394/93c86441-2b09-4bbf-ab50-40c4a09f8b36)
+![Mesa de trabajo 8](https://github.com/devFNL/visa-solutions/assets/127357394/9786b450-2c36-4750-a849-d32d4217b81b)
+
+
+
+
+
+
+
