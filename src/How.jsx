@@ -1,5 +1,6 @@
 import React from "react";
 import flow from "/how.png";
+
 const How = () => {
   return (
     <div className="how">
