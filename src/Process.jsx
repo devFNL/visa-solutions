@@ -23,43 +23,62 @@ const Process = () => {
       </div>
       <div className="bubbles">
         <div className="bubbles_first">
-          <Bubble title="REGISTER" img={bub1} data="Fill out the online form" />
-          <p className="arrow">{"→"}</p>
           <Bubble
-            title="DOCUMENT"
+            title="1. REGISTER"
+            img={bub1}
+            data="Fill out the online form"
+          />
+          {/* <p className="arrow">{"→"}</p> */}
+          <Bubble
+            title="2. DOCUMENT"
             img={bub2}
             data="Send all requested documents"
           />
-          <p className="arrow">{"→"}</p>
+          {/* <p className="arrow">{"→"}</p> */}
           <Bubble
-            title="INTERVIEW"
+            title="3. INTERVIEW"
             img={bub3}
             data="Virtual interview with the employer"
           />
-          <p className="arrow">{"→"}</p>
-          <Bubble title="JOB OFFER" img={bub4} data="Receive the job terms" />
+          {/* <p className="arrow">{"→"}</p> */}
+          <Bubble
+            title="4. JOB OFFER"
+            img={bub4}
+            data="Receive the job terms"
+          />
         </div>
         <div className="bubbles_second">
           <Bubble
-            title="MIGRATION PROCESS"
+            title="5. MIGRATION PROCESS"
             img={bub5}
             data="Approximately 18 months"
           />
-          <p className="arrow">{"→"}</p>
+          {/* <p className="arrow">{"→"}</p> */}
           <Bubble
-            title="RELOCATION"
+            title="6. RELOCATION"
             img={bub6}
             data="Receive assistance in starting your new life"
           />
-          <p className="arrow">{"→"}</p>
-          <Bubble title="START WORKING" img={bub7} data="Begin your new job" />
-          <p className="arrow">{"→"}</p>
+          {/* <p className="arrow">{"→"}</p> */}
           <Bubble
-            title="LIVE YOUR AMERICAN DREAM"
+            title="7. START WORKING"
+            img={bub7}
+            data="Begin your new job"
+          />
+          {/* <p className="arrow">{"→"}</p> */}
+          <Bubble
+            title="8. LIVE YOUR AMERICAN DREAM"
             img={bub8}
             data="Start your new life and share your history"
           />
         </div>
+      </div>
+      <div className="extra">
+        <p>
+          The United States government issues a limited number of EB-3 visas
+          each year. Don’t miss the opportunity to start living your American
+          Dream!
+        </p>
       </div>
     </div>
   );

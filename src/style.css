@@ -11,8 +11,32 @@
   padding: 0px;
 }
 
-ul,
-li {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 50px;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul,
+.navbar li {
   list-style: none;
   text-align: center;
   margin: 20px;
@@ -23,13 +47,6 @@ li {
   flex-direction: row;
 }
 
-.navbar {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .logo {
   width: 10%;
   display: flex;
@@ -37,7 +54,7 @@ li {
   margin-right: 120px;
 }
 
-a {
+.navbar a {
   text-decoration: none;
   color: black;
   font-size: 16px;
@@ -46,7 +63,7 @@ a {
   box-shadow: inset 0 -2px 0 transparent;
 }
 
-a:hover {
+.navbar a:hover {
   color: #d00b16;
   border-bottom-color: #d00b16;
   box-shadow: inset 0 -2px 0 #d00b16;
@@ -76,12 +93,13 @@ a:hover {
   text-align: right;
   font-size: 45px;
   color: black;
-  margin: 0;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .hero img {
   width: 20%;
-  margin-top: 250px;
+  margin-top: 40px;
 }
 
 .about {
@@ -249,6 +267,18 @@ a:hover {
   width: 100%;
 }
 
+.requirements ul,
+.requirements li {
+  list-style: none;
+  text-align: center;
+  margin: 20px;
+  padding: 5px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .requirements_list::before {
   content: "";
   position: absolute;
@@ -332,6 +362,11 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.process {
+  width: 80%;
+  margin: auto;
+}
+
 .process_head {
   display: flex;
   align-items: center;
@@ -347,7 +382,7 @@ a:hover {
 .process_head p {
   font-weight: 500;
   font-size: 18px;
-  width: 55%;
+  width: 75%;
 }
 
 .bubbles {
@@ -357,6 +392,7 @@ a:hover {
   flex-direction: column;
   width: 100%;
   margin: 35px 0px;
+  gap: 20px;
 }
 
 .bubbles_first,
@@ -365,7 +401,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   width: 60%;
-  margin: 10px 0;
+  margin: 20px 0px;
 }
 
 .bubble {
@@ -376,6 +412,7 @@ a:hover {
   width: 22%;
   transition: color 0.3s ease-in-out;
   transition: scale 0.3s ease-in-out;
+  gap: 5px;
 }
 
 .bubble img {
@@ -401,10 +438,211 @@ a:hover {
   margin-top: 40px;
   font-weight: 600;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .bubble:hover {
   color: #d00b16;
   scale: 1.1;
+}
+
+.extra {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  font-size: 18px;
+  font-weight: 500;
+  margin: auto;
+  text-align: start;
+  transition: box-shadow 0.3s ease-in-out;
+  margin: 20px auto;
+  border-radius: 20px;
+  margin: 35px auto;
+}
+
+.extra h3 {
+  text-align: center;
+}
+
+.extra p {
+  text-align: center;
+  width: 70%;
+}
+
+.extra:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.included {
+  margin-bottom: 50px;
+}
+
+.included_head {
+  border-top: 1px solid black;
+  width: 60%;
+}
+
+.included_head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.included_head h1 {
+  font-size: 45px;
+  color: #072d4d;
+}
+
+.included_head p {
+  font-weight: 500;
+  font-size: 18px;
+  width: 60%;
+  text-align: center;
+}
+
+.included_item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.included_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  width: 20%;
+  background-color: #3086c7;
+  color: white;
+  min-height: 550px;
+  border-radius: 10px;
+  margin-top: 60px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.banner img {
+  width: 10px;
+}
+
+.banner h2 {
+  font-size: 28px;
+  font-weight: 800;
+  width: 60%;
+}
+
+.banner p {
+  width: 60%;
+  font-size: 18px;
+}
+
+.banner hr {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  width: 70%;
+}
+
+.banner:hover {
+  background-color: #072d4d;
+  color: white;
+}
+
+.note {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.cover {
+  background-color: #072d4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.cover_img img {
+  margin: 50px auto;
+  width: 100%;
+}
+
+.cover h1 {
+  margin-top: 40px;
+  font-size: 48px;
+  color: white;
+}
+
+.cover h3 {
+  font-size: 24px;
+  font-weight: 100;
+  color: white;
+}
+
+.cover a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.social {
+  margin: 20px 20px;
+}
+
+.social img {
+  margin: 20px 20px;
+  transition: scale 0.2s ease-in-out;
+}
+
+.social img:hover {
+  scale: 0.95;
+}
+
+.social a {
+  margin: 20px;
+}
+
+.foot {
+  margin-top: 30px;
+  font-size: 12px;
+  color: white;
+}
+
+.foot a {
+  padding-top: 40px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.1s ease-in-out;
+  box-shadow: inset 0 -2px 0 transparent;
+}
+
+.home:hover {
+  border-bottom-color: #d00b16;
+  box-shadow: inset 0 -2px 0 #d00b16;
 }

@@ -53,6 +53,15 @@ const Requirements = () => {
           />
         </ul>
       </div>
+      {/* <div className="extra">
+        <h3>Honesty is our policy.</h3>
+        <p>
+          We expect you to be honest about your skills, work experience, and
+          personal information. We will verify your background, and any
+          inaccurate or false information provided will result in your
+          application being rejected.
+        </p>
+      </div> */}
     </div>
   );
 };

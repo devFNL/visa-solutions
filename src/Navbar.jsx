@@ -5,26 +5,32 @@ const Navbar = () => {
   return (
     <header>
       <div className="navbar">
-        <img src={typo} className="logo" alt="" />
+        <img src={typo} className="logo" alt="Logo" />
         <div className="list">
           <ul>
-            <a href=".">
+            <a href="#">
               <li>Home</li>
             </a>
-            <a href=".">
+            <a href="#about">
               <li>About Us</li>
             </a>
-            <a href=".">
+            <a href="#how">
               <li>How it Works</li>
             </a>
-            <a href=".">
+            <a href="#benefits">
               <li>Benefits</li>
             </a>
-            <a href=".">
+            <a href="#requirements">
               <li>Requirements</li>
             </a>
-            <a href=".">
+            <a href="#process">
               <li>Our Process</li>
+            </a>
+            <a href="#included">
+              <li>What's Included</li>
+            </a>
+            <a href="#cover">
+              <li>Contact Us</li>
             </a>
           </ul>
         </div>
