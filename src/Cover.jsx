@@ -45,9 +45,9 @@ const Cover = () => {
       </div>
       <div className="foot">
         <p>© Visa Solutions Workforce, LLC 2023 All Rights Reserved.</p>
-        <a href="#">
+        {/* <a href="#">
           <img src={top} alt="" />
-        </a>
+        </a> */}
       </div>
     </div>
   );

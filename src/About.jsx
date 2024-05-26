@@ -25,8 +25,8 @@ const About = () => {
       </div>
       <div className="cards">
         <Card number="+14" data="Years of Experience" img={star} />
-        <Card number="+6" data="Offices around the world" img={globe} />
-        <Card number="+70" data="Countries" img={company} />
+        <Card number="+6" data="Offices around the world" img={company} />
+        <Card number="+70" data="Countries" img={globe} />
         <Card number="+1000" data="Success stories" img={people} />
       </div>
     </div>
