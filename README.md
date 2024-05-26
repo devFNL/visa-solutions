@@ -7,7 +7,7 @@ This project was developed as part of an interview task for Visa Solutions Workf
 The task was to create a home website based on a brochure. The main focus was on visual elements, requiring the integration of all brand materials and elements to ensure consistency and alignment with the brand identity.
 
 ## Important Note
-The ideal resolution for this project is 1080p (1920x1080), as there was not enough time to implement full responsiveness for the website.
+The ideal resolution for this project is 1080p (1920x1080), as there was not enough time to implement full responsiveness for the website. Please use it with that resolution, or at least 720p (1366x768), but not less.
 
 ## Features
 
